@@ -21,12 +21,30 @@ main {
     max-width: 80%;
 }
 nav{
+    background-color: #BF99AE;
+    color:#6B3453;
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     position: fixed;
-    top: 10%;
-    right: 0%;
-    padding: 30px 30px 30px 30px;
+    top: 17%;
+    right: 2%;
+    padding: 5%;
+    font-family: 'PANIC 3';
+    font-size: 15pt;
+    width: 12%; 
+    border-radius: 10px;
+    text-align: left;
+}
+
+nav a {
+    color:#6B3453;
+    text-align: left;
+}
+nav a:hover {
+    color: #BF99AE;
+    opacity: .5;
+    background-color: #6B3453;
 }
 header {
     font-family: 'Tommy Soft';
@@ -40,7 +58,7 @@ header img:hover {
     background-color: #BF99AE;
     opacity: .5;
 }
-h1{
+/*h1{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -51,7 +69,7 @@ h1{
     max-width: 40%;
     min-width: none;
     border-radius: 10px;
-}
+}*/
 section {
     display: flex;
     flex-direction: row;
@@ -89,9 +107,8 @@ text:hover {
     opacity: 50%;
 }
 a {
-    position: fixed;
-    top: 3%;
-    right: 6%;
+    text-decoration: none;
+    color: #BF99AE;
 }
 a:hover {
     opacity: 50%;
@@ -99,4 +116,17 @@ a:hover {
 }
 img {
     min-width: 30%;
+}
+
+list:hover  {
+    opacity: 50%;
+    background-color: #7583C1;
+}
+.snoopy {
+    text-align: right;
+    padding: 2%; 
+    width: 10%; 
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }
